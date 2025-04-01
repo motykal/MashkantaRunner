@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &200000
+GameObject:
+  m_Name: MortgageFormUI
+  m_IsActive: 1
+  m_Components: []
+  m_Children:
+    - {fileID: 200001}  # Canvas
+--- !u!1 &200001
+GameObject:
+  m_Name: Canvas
+  m_IsActive: 1
+  m_Components: []
+  m_Children:
+    - {fileID: 200010}  # AmountSlider
+    - {fileID: 200020}  # TermDropdown
+    - {fileID: 200030}  # RateDropdown
+    - {fileID: 200040}  # SubmitButton
+--- !u!1 &200010
+GameObject:
+  m_Name: AmountSlider
+  m_IsActive: 1
+  m_Components: []
+--- !u!1 &200020
+GameObject:
+  m_Name: TermDropdown
+  m_IsActive: 1
+  m_Components: []
+--- !u!1 &200030
+GameObject:
+  m_Name: RateDropdown
+  m_IsActive: 1
+  m_Components: []
+--- !u!1 &200040
+GameObject:
+  m_Name: SubmitButton
+  m_IsActive: 1
+  m_Components: []
